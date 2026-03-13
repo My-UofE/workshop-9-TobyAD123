@@ -34,4 +34,23 @@ public class Post implements Serializable {
         return result;
     }
 
+    public int getPostID() {
+        return this.postID;
+    }
+
+    public String getAuthor() {
+        return this.author;
+    }
+
+    public String getSubject() {
+        return this.subject;
+    }
+
+    public String getMessage() {
+        return this.message;
+    }
+
+    public int getDate() {
+        return this.date;
+    }
 }
